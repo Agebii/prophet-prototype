@@ -1,0 +1,211 @@
+body{
+  font-family: Raleway;
+  margin-bottom: 0;
+}
+
+h1{
+  font-weight: bolder;
+  font-size: 5rem;
+  line-height: 1.5;
+  letter-spacing: 5px;
+}
+
+h2{
+  font-weight: bolder;
+  font-size: 4rem;
+}
+
+li{
+  color: #d4d4d4;
+}
+
+ul{
+  text-align: left;
+}
+
+.feature-title{
+  text-align: center;
+  margin-bottom: 8%;
+  font-weight: bold;
+  color: white;
+}
+
+.feature-p{
+  line-height: 2;
+  text-align: center;
+}
+
+.feature-col{
+  padding: 0 60px;
+}
+
+.container-fluid{
+  padding: 3% 15%;
+}
+
+.navbar{
+  padding: 0 0 5rem;
+}
+
+.navbar-brand{
+  letter-spacing: 10px;
+  font-family: Raleway;
+  font-size: 2rem;
+}
+
+.nav-link{
+  letter-spacing: 5px;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+
+.btn-download{
+  border: 1.5px solid white;
+  color: white;
+}
+
+.btn-download:hover{
+  background-color: white;
+  color: black;
+  border: 1.5px solid white;
+}
+
+
+.title-img{
+  transform: rotate(25deg);
+}
+
+.icon{
+  text-align: center;
+  width: 100%;
+  margin-bottom: 30px;
+  color: white;
+  transition: 0.5s;
+}
+.icon:hover{
+  color: #b6fcfc;
+  cursor: pointer;
+}
+
+#title{
+  background: rgb(2,0,47);
+  background: linear-gradient(176deg, rgba(2,0,47,1) 0%, rgba(0,0,0,1) 100%);
+  color: white;
+}
+
+
+#features{
+  padding: 200px;
+  background-color: black;
+  color: white;
+}
+
+
+#testimonials{
+  background: rgb(2,0,47);
+  background: linear-gradient(4deg, rgba(2,0,47,1) 0%, rgba(0,0,0,1) 100%);
+  padding: 100px 0;
+  text-align: center;
+  color: white;
+}
+
+.carousel-item{
+  padding: 0 200px;
+}
+
+.testimonial-img{
+  width: 15%;
+  border-radius: 100%;
+  margin: 4%;
+}
+
+#press{
+  background: rgb(2,0,47);
+  background: linear-gradient(176deg, rgba(2,0,47,1) 0%, rgba(0,0,0,1) 100%);
+  padding: 50px 100px 200px;
+  color: white;
+  text-align: center;
+}
+
+.press-logo{
+  width: 330px;
+  margin: 40px;
+}
+
+.bitfinex-logo{
+  width: 230px;
+}
+
+#pricing{
+  background: rgb(2,0,47);
+  background: linear-gradient(4deg, rgba(2,0,47,1) 0%, rgba(0,0,0,1) 100%);
+  padding: 100px 50px;
+  text-align: center;
+  color: white;
+}
+
+.card{
+  background-color: transparent;
+  border: 1px solid #d4d4d4;
+  font-size: 1rem;
+}
+
+
+
+.card-header{
+  color: white;
+  border-bottom: 1px solid #d4d4d4;
+}
+
+.card-title{
+  font-size: 3rem;
+}
+
+.feature-list{
+  line-height: 2.5;
+  margin: 20px 0px;
+}
+
+.price-subtitle{
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+#cta{
+  background: rgb(2,0,47);
+  text-align: center;
+  color: white;
+}
+
+#footer{
+  background: rgb(2,0,47);
+  text-align: center;
+  color: white;
+  padding: 100px 200px;
+}
+
+.foot-icon{
+  margin: 0 10px;
+}
+
+.footer-icons{
+  margin-bottom: 15px;
+}
+
+@media (max-width: 992px){
+  .title-img{
+    transform: rotate(0);
+    margin-top: 50px;
+  }
+
+  #title{
+    text-align: center;
+  }
+
+  .title-title{
+    font-size: 3.5rem;
+  }
+}
